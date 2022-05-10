@@ -1,10 +1,10 @@
-#Time complexity of following is O(1)
+#Time complexity of following is O(n)
 
-def linear_search(list, num):
+def search(list, num):
 
     if num in list:
         return True
     else:
         return False
 
-print(linear_search([1,2,3,4,5], 6))
+print(search([1,2,3,4,5], 6))
