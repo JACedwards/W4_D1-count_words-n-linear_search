@@ -5,7 +5,7 @@ def count_words(a_text):
 
     a_text = a_text.lower()
     a_split = a_text.split()
-    x = 'a'
+
 
     for x in a_split:
         for d in a_split:
